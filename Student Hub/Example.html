@@ -1,0 +1,75 @@
+<html>
+    <center>
+        <header>
+       <h1 style="background-color: rgb(3, 66, 81); color: white;"><font size="32">StudentHub Portal</font></h1>
+        <h2>Sign Up</h2>
+        <style>
+            body {
+                font-family: Arial;
+                background-color: white;
+            }
+            input{
+                padding: 8px;
+                margin: 5px;
+            }
+            input[type="submit"]{
+                background-color: rgb(3, 66, 81);
+                color: white;
+                padding: 10px 20px;
+                border: none;
+            }
+            @media  (max-width: 600px){
+                input{
+                    width: 80%;
+                }
+                h1{
+                    font-size: 25px;
+                }
+            }
+        </style>
+        </header>
+    <hr>
+    <body>
+    <main>
+    <h3>Student Details</h3>
+    <form action="dashboard.html">
+    Name : <input type="text"><br><br>
+    Email : 
+    <input type="email"><br><br>
+    Mobile Number :
+    <input type="text"><br><br>
+    Institute :  
+    <input type="text"><br><br>
+    Department :<input type="text"><br><br>
+    Student ID :  
+    <input type="text"><br><br>
+    Password : 
+    <input type="password"><br><br>
+    Confirm Password :  
+    <input type="password"><br><br>
+    <br><br>
+    <input type="submit" value="Submit"><br><br>
+    </form>
+    <hr>
+</main>
+        <footer>
+            <p><center>2026 StudentHub Portal</center></p>
+        </footer>
+        <script>
+        let form = document.querySelector("form");
+        form.addEventListener("submit",function(event) {
+            let input=document.querySelectorAll("input");
+            let password=input[6].value;
+            let ConfirmPassword=inputs[7].value;
+            if(password!=ConfirmPassword){
+                alert("Password And Confirm Password Do not Match!");
+                event.preventDefault();
+            }
+            else{
+                alert("Sign Up Successful!");
+            }
+        });
+    </script>
+</body>
+</center>
+</html>
