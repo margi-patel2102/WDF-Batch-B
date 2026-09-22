@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: #17181d;
+
+    color: white;
+}
+
+
+/* ================= HEADER ================= */
+
+header {
+    height: 75px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 0 7%;
+
+    background-color: #191a20;
+}
+
+
+/* Logo */
+
+.logo {
+    font-size: 28px;
+
+    font-weight: bold;
+}
+
+.logo span {
+    color: #9b61e8;
+}
+
+
+/* Navigation */
+
+nav {
+    display: flex;
+
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 13px;
+}
+
+nav a:hover {
+    color: #9b61e8;
+}
+
+
+/* ================= MAIN ================= */
+
+main {
+    min-height: calc(100vh - 125px);
+
+    padding: 50px 5%;
+}
+
+
+/* ================= HEADING ================= */
+
+.heading {
+    margin-bottom: 30px;
+}
+
+.heading p {
+    color: #9b61e8;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+
+    margin-bottom: 10px;
+}
+
+.heading h1 {
+    font-size: 45px;
+
+    margin-bottom: 8px;
+}
+
+.heading h1 span {
+    color: #9b61e8;
+}
+
+.heading h3 {
+    color: #888;
+
+    font-size: 14px;
+
+    font-weight: normal;
+}
+
+
+/* ================= TIMETABLE ================= */
+
+.timetable {
+    background-color: #202126;
+
+    border: 1px solid #292a31;
+
+    border-radius: 10px;
+
+    padding: 20px;
+
+    overflow-x: auto;
+}
+
+
+/* Table */
+
+table {
+    width: 100%;
+
+    min-width: 900px;
+
+    border-collapse: collapse;
+}
+
+
+/* Table heading */
+
+th {
+    background-color: #9054df;
+
+    color: white;
+
+    padding: 15px 10px;
+
+    font-size: 12px;
+
+    text-align: center;
+}
+
+
+/* Table cells */
+
+td {
+    border: 1px solid #333;
+
+    padding: 14px 10px;
+
+    text-align: center;
+
+    color: #aaa;
+
+    font-size: 12px;
+
+    height: 70px;
+}
+
+
+/* Time column */
+
+td:first-child {
+    color: #9b61e8;
+
+    font-weight: bold;
+
+    white-space: nowrap;
+}
+
+
+/* Subject */
+
+td b {
+    display: block;
+
+    color: white;
+
+    font-size: 13px;
+
+    margin-bottom: 5px;
+}
+
+
+/* Room */
+
+td small {
+    color: #666;
+
+    font-size: 9px;
+}
+
+
+/* Holiday */
+
+.holiday {
+    color: #777;
+
+    font-size: 11px;
+
+    background-color: #1b1c20;
+}
+
+
+/* Lunch */
+
+.lunch {
+    color: #9b61e8;
+
+    font-weight: bold;
+
+    background-color: #292033;
+
+    height: 45px;
+}
+
+
+/* Hover */
+
+td:not(.holiday):not(.lunch):hover {
+    background-color: #292033;
+}
+
+
+/* ================= NOTE ================= */
+
+.note {
+    margin-top: 20px;
+
+    padding: 18px 22px;
+
+    background-color: #202126;
+
+    border-radius: 6px;
+}
+
+.note h3 {
+    font-size: 14px;
+
+    margin-bottom: 7px;
+}
+
+.note p {
+    color: #888;
+
+    font-size: 12px;
+
+    line-height: 1.5;
+}
+
+
+/* ================= FOOTER ================= */
+
+footer {
+    height: 50px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background-color: #191a20;
+
+    color: #777;
+
+    font-size: 11px;
+}

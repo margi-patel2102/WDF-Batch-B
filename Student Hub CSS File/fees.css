@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: #17181d;
+
+    color: white;
+}
+
+
+/* ================= HEADER ================= */
+
+header {
+    height: 75px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 0 7%;
+
+    background-color: #191a20;
+}
+
+
+/* Logo */
+
+.logo {
+    font-size: 28px;
+
+    font-weight: bold;
+}
+
+.logo span {
+    color: #9b61e8;
+}
+
+
+/* Navigation */
+
+nav {
+    display: flex;
+
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #9b61e8;
+}
+
+
+/* ================= MAIN ================= */
+
+main {
+    min-height: calc(100vh - 125px);
+
+    padding: 50px 7%;
+}
+
+
+/* ================= HEADING ================= */
+
+.heading {
+    margin-bottom: 30px;
+}
+
+.heading p {
+    color: #9b61e8;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+
+    margin-bottom: 10px;
+}
+
+.heading h1 {
+    font-size: 45px;
+
+    margin-bottom: 8px;
+}
+
+.heading h1 span {
+    color: #9b61e8;
+}
+
+.heading h3 {
+    color: #888;
+
+    font-size: 14px;
+
+    font-weight: normal;
+}
+
+
+/* ================= FEE SUMMARY ================= */
+
+.fee-summary {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+
+    margin-bottom: 30px;
+}
+
+
+/* Fee Card */
+
+.fee-card {
+    background-color: #202126;
+
+    padding: 25px;
+
+    border-radius: 10px;
+
+    border: 1px solid #292a31;
+}
+
+.fee-card:hover {
+    border-color: #9b61e8;
+}
+
+
+/* Card title */
+
+.fee-card p {
+    color: #999;
+
+    font-size: 13px;
+
+    margin-bottom: 10px;
+}
+
+
+/* Amount */
+
+.fee-card h2 {
+    color: #9b61e8;
+
+    font-size: 28px;
+
+    margin-bottom: 8px;
+}
+
+
+/* Small text */
+
+.fee-card span {
+    color: #666;
+
+    font-size: 11px;
+}
+
+
+/* ================= TABLE ================= */
+
+.fee-details {
+    background-color: #202126;
+
+    padding: 25px;
+
+    border-radius: 10px;
+
+    border: 1px solid #292a31;
+
+    margin-bottom: 25px;
+}
+
+.fee-details h2 {
+    font-size: 20px;
+
+    margin-bottom: 20px;
+}
+
+
+/* Table */
+
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+
+/* Table Heading */
+
+th {
+    text-align: left;
+
+    color: #9b61e8;
+
+    font-size: 12px;
+
+    padding: 15px;
+
+    border-bottom: 1px solid #444;
+}
+
+
+/* Table Data */
+
+td {
+    color: #aaa;
+
+    font-size: 13px;
+
+    padding: 15px;
+
+    border-bottom: 1px solid #333;
+}
+
+
+/* Paid */
+
+.paid {
+    color: #6fcf97;
+}
+
+
+/* Pending */
+
+.pending {
+    color: #e5a84b;
+}
+
+
+/* ================= PAYMENT ================= */
+
+.payment {
+    background-color:  #20212;
+
+    padding: 25px 30px;
+
+    border-radius: 10px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.payment h2 {
+    font-size: 20px;
+
+    margin-bottom: 8px;
+}
+
+.payment p {
+    color: #eee;
+
+    font-size: 12px;
+}
+
+
+/* Contact button */
+
+.payment a {
+    background-color: #202126;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 12px 20px;
+
+    border-radius: 6px;
+
+    font-size: 12px;
+}
+
+.payment a:hover {
+    background-color: #17181d;
+}
+
+
+/* ================= FOOTER ================= */
+
+footer {
+    height: 50px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background-color: #191a20;
+
+    color: #777;
+
+    font-size: 11px;
+}

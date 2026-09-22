@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #17181d;
+    color: white;
+}
+/* ================= HEADER ================= */
+header {
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:3%;
+    background-color: #191a20;
+}
+/* Logo */
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+}
+.logo span {
+    color: #9b61e8;
+}
+/* Navigation */
+nav {
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+nav a:hover {
+    color: #9b61e8;
+}
+/* ================= MAIN ================= */
+main {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+/* ================= SIGN UP BOX ================= */
+.signup-box {
+    width: 450px;
+    background-color: #202126;
+    border: 1px solid #292a31;
+    border-radius: 12px;
+    padding: 35px;
+}
+/* Heading */
+.signup-box h1 {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+.signup-box h1 span {
+    color: #9b61e8;
+}
+/* Description */
+.description {
+    color: #888;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+/* ================= FORM ================= */
+form {
+    display: flex;
+    flex-direction: column;
+}
+/* Label */
+label {
+    color: #aaa;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+/* Input */
+input {
+    width: 95%;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #17181d;
+    border: 1px solid #333;
+    border-radius: 8px;
+    color: white;
+    font-size: 12px;
+    outline: none;
+}
+/* Input focus */
+input:focus {
+    border-color: #9b61e8;
+}
+/* Placeholder */
+input::placeholder {
+    color: #666;
+}
+/* ================= BUTTON ================= */
+.create-button {
+    display: block;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    background-color: #9b61e8;
+
+    color: white;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    padding: 13px;
+
+    border-radius: 6px;
+
+    margin-top: 20px;
+
+    font-size: 13px;
+}
+
+.create-button:hover {
+    background-color: #8248d0;
+}
+/* ================= LOGIN TEXT ================= */
+.login-text {
+    text-align: center;
+    color: #777;
+    font-size: 11px;
+    margin-top: 20px;
+}
+.login-text a {
+    color: #9b61e8;
+    text-decoration: none;
+    margin-left: 4px;
+}
+/* ================= FOOTER ================= */
+footer {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #191a20;
+    color: #777;
+    font-size: 11px;
+}

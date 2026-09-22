@@ -1,0 +1,169 @@
+body {
+    background: #f4f5f7;
+
+    color: rgb(2, 2, 2);
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+}
+
+
+/* ================= HEADER ================= */
+
+header {
+    padding: 25px 7%;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    border-bottom: 1px solid #29292f;
+}
+
+header h1 {
+    margin: 0;
+
+    font-size: 28px;
+}
+
+
+/* ================= NAVIGATION ================= */
+
+nav a {
+    color: rgb(3, 3, 3);
+
+    text-decoration: none;
+
+    margin-left: 25px;
+
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #a56bea;
+}
+
+
+/* ================= MAIN ================= */
+
+main {
+    min-height: 500px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 60px 8%;
+
+    gap: 50px;
+}
+
+
+/* ================= LEFT SIDE ================= */
+
+.left-side {
+    width: 50%;
+}
+
+.welcome {
+    color: #a56bea;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    font-size: 13px;
+}
+
+
+.left-side h2 {
+    font-size: 45px;
+
+    line-height: 1.2;
+
+    margin: 20px 0;
+}
+
+.left-side h2 span {
+    color: #a56bea;
+}
+
+
+.left-side p {
+    color: #aaa;
+
+    line-height: 1.6;
+
+    font-size: 17px;
+}
+
+
+/* ================= BUTTON ================= */
+
+button {
+    background: #9b5de5;
+
+    color: white;
+
+    border: 0;
+
+    padding: 13px 30px;
+
+    border-radius: 7px;
+
+    font-size: 16px;
+
+    margin-top: 15px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background: #b477ef;
+}
+
+
+/* ================= RIGHT SIDE ================= */
+
+.right-side {
+    width: 50%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+
+/* Image */
+
+.right-side img {
+    width: 100%;
+
+    max-width: 500px;
+
+    height: auto;
+
+    display: block;
+
+    border-radius: 20px;
+}
+
+
+/* ================= FOOTER ================= */
+
+footer {
+    text-align: center;
+
+    color: #666;
+
+    padding: 20px;
+
+    border-top: 1px solid #29292f;
+}
