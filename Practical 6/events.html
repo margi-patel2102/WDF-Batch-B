@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StudentHub - Events</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="events.css">
+
+    <!-- JavaScript -->
+    <script src="events.js" defer></script>
+
+</head>
+
+
+<body>
+
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <div class="logo">
+            Student<span>Hub</span>
+        </div>
+  <nav>
+            <a href="index.html">Home</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="profile.html">Profile</a>
+            <a href="courses.html">Courses</a>
+            <a href="timetable.html">Timetable</a>
+            <a href="noticeboard.html">NoticeBoard</a>
+            <a href="fees.html">Fee Details</a>
+            <a href="Result.html">Result</a>
+             <a href="events.html">Events</a>
+            <a href="contact.html">Contact</a>
+             <a href="faq.html">FAQ</a>
+              <a href="login.html">Logout</a>
+        </nav>
+    </header>
+
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main>
+
+
+        <!-- PAGE HEADING -->
+
+        <section class="page-heading">
+
+            <h1>
+                College Events
+            </h1>
+
+            <p>
+                Explore upcoming college events and activities
+            </p>
+
+        </section>
+
+
+
+        <!-- ================= SEARCH AND FILTER ================= -->
+
+        <section class="controls">
+
+
+            <!-- Search -->
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search event name or organizer..."
+            >
+
+
+            <!-- Category Filter -->
+
+            <select id="categoryFilter">
+
+                <option value="all">
+                    All Categories
+                </option>
+
+                <option value="Technical">
+                    Technical
+                </option>
+
+                <option value="Cultural">
+                    Cultural
+                </option>
+
+                <option value="Sports">
+                    Sports
+                </option>
+
+                <option value="Workshop">
+                    Workshop
+                </option>
+
+            </select>
+
+
+            <!-- Sort -->
+
+            <select id="sortOption">
+
+                <option value="az">
+                    Event Name A-Z
+                </option>
+
+                <option value="za">
+                    Event Name Z-A
+                </option>
+
+            </select>
+
+
+        </section>
+
+
+
+        <!-- ================= LOADING ================= -->
+
+        <p id="loading">
+            Loading events...
+        </p>
+
+
+
+        <!-- ================= ERROR ================= -->
+
+        <p id="error"></p>
+
+
+
+        <!-- ================= EVENT CARDS ================= -->
+
+        <section
+            id="eventContainer"
+            class="event-container">
+        </section>
+
+
+
+        <!-- ================= PAGINATION ================= -->
+
+        <section class="pagination">
+
+
+            <button
+                id="prevBtn"
+                type="button">
+
+                Previous
+
+            </button>
+
+
+            <span id="pageNumber">
+                Page 1
+            </span>
+
+
+            <button
+                id="nextBtn"
+                type="button">
+
+                Next
+
+            </button>
+
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 StudentHub. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>

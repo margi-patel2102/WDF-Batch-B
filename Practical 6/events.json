@@ -1,0 +1,152 @@
+[
+    {
+        "id": "EVT001",
+        "name": "Tech Fest 2026",
+        "date": "2026-10-15",
+        "time": "10:00 AM",
+        "venue": "DEPSTAR Auditorium",
+        "category": "Technical",
+        "organizer": "GIT Club",
+        "status": "Registration Open"
+    },
+    {
+        "id": "EVT002",
+        "name": "Web Development Workshop",
+        "date": "2026-10-18",
+        "time": "11:00 AM",
+        "venue": "Computer Lab 1",
+        "category": "Workshop",
+        "organizer": "IT Department",
+        "status": "Registration Open"
+    },
+    {
+        "id": "EVT003",
+        "name": "Annual Sports Day",
+        "date": "2026-10-22",
+        "time": "9:00 AM",
+        "venue": "University Ground",
+        "category": "Sports",
+        "organizer": "Sports Committee",
+        "status": "Registration Open"
+    },
+    {
+        "id": "EVT004",
+        "name": "Cultural Night",
+        "date": "2026-10-25",
+        "time": "6:00 PM",
+        "venue": "Main Auditorium",
+        "category": "Cultural",
+        "organizer": "Cultural Committee",
+        "status": "Registration Open"
+    },
+    {
+        "id": "EVT005",
+        "name": "Python Programming Workshop",
+        "date": "2026-10-28",
+        "time": "10:30 AM",
+        "venue": "Computer Lab 2",
+        "category": "Workshop",
+        "organizer": "Coding Club",
+        "status": "Registration Open"
+    },
+    {
+        "id": "EVT006",
+        "name": "Hackathon 2026",
+        "date": "2026-11-02",
+        "time": "9:00 AM",
+        "venue": "Innovation Center",
+        "category": "Technical",
+        "organizer": "Innovation Club",
+        "status": "Registration Open"
+    },
+    {
+        "id": "EVT007",
+        "name": "Photography Competition",
+        "date": "2026-11-05",
+        "time": "2:00 PM",
+        "venue": "Student Activity Center",
+        "category": "Cultural",
+        "organizer": "Photography Club",
+        "status": "Registration Open"
+    },
+    {
+        "id": "EVT008",
+        "name": "Cricket Tournament",
+        "date": "2026-11-08",
+        "time": "8:00 AM",
+        "venue": "University Ground",
+        "category": "Sports",
+        "organizer": "Sports Committee",
+        "status": "Registration Open"
+    },
+    {
+        "id": "EVT009",
+        "name": "AI and Machine Learning Seminar",
+        "date": "2026-11-12",
+        "time": "11:00 AM",
+        "venue": "Seminar Hall",
+        "category": "Technical",
+        "organizer": "CSE Department",
+        "status": "Registration Open"
+    },
+    {
+        "id": "EVT010",
+        "name": "Career Guidance Seminar",
+        "date": "2026-11-15",
+        "time": "10:00 AM",
+        "venue": "Main Auditorium",
+        "category": "Workshop",
+        "organizer": "Career Development Cell",
+        "status": "Registration Open"
+    },
+    {
+        "id": "EVT011",
+        "name": "Dance Competition",
+        "date": "2026-11-18",
+        "time": "5:00 PM",
+        "venue": "Main Auditorium",
+        "category": "Cultural",
+        "organizer": "Cultural Committee",
+        "status": "Registration Open"
+    },
+    {
+        "id": "EVT012",
+        "name": "Cyber Security Awareness",
+        "date": "2026-11-20",
+        "time": "12:00 PM",
+        "venue": "Seminar Hall",
+        "category": "Technical",
+        "organizer": "Cyber Security Club",
+        "status": "Registration Open"
+    },
+    {
+        "id": "EVT013",
+        "name": "Basketball Tournament",
+        "date": "2026-11-23",
+        "time": "9:00 AM",
+        "venue": "Sports Complex",
+        "category": "Sports",
+        "organizer": "Sports Committee",
+        "status": "Registration Open"
+    },
+    {
+        "id": "EVT014",
+        "name": "Java Programming Workshop",
+        "date": "2026-11-26",
+        "time": "10:00 AM",
+        "venue": "Computer Lab 3",
+        "category": "Workshop",
+        "organizer": "Programming Club",
+        "status": "Registration Open"
+    },
+    {
+        "id": "EVT015",
+        "name": "Annual College Festival",
+        "date": "2026-11-30",
+        "time": "4:00 PM",
+        "venue": "University Campus",
+        "category": "Cultural",
+        "organizer": "Student Council",
+        "status": "Registration Open"
+    }
+]
