@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>StudentHub - Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+    <script src="signup.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <div class="logo">
+            Student<span>Hub</span>
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <!-- Sign Up Section -->
+
+    <main>
+
+        <div class="signup-box">
+
+            <h1>Create <span>Account</span></h1>
+
+            <p class="description">
+                Create your StudentHub account to access
+                your academic information.
+            </p>
+
+
+            <!-- Form -->
+
+            <form id="signupForm">
+
+                <!-- Full Name -->
+                <label for="name">Full Name</label>
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your full name"
+                >
+
+                <small id="nameError"></small>
+
+
+                <!-- Email -->
+                <label for="email">Email Address</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                >
+
+                <small id="emailError"></small>
+
+
+                <!-- Student ID -->
+                <label for="studentId">Student ID</label>
+
+                <input
+                    type="text"
+                    id="studentId"
+                    placeholder="Enter your student ID"
+                >
+
+                <small id="studentIdError"></small>
+
+
+                <!-- Username -->
+                <label for="username">Username</label>
+
+                <input
+                    type="text"
+                    id="username"
+                    placeholder="Create a username"
+                >
+
+                <small id="usernameError"></small>
+
+
+                <!-- Mobile -->
+                <label for="mobile">Mobile Number</label>
+
+                <input
+                    type="tel"
+                    id="mobile"
+                    placeholder="Enter 10 digit mobile number"
+                >
+
+                <small id="mobileError"></small>
+
+
+                <!-- Password -->
+                <label for="password">Password</label>
+
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Create a password"
+                >
+
+                <div id="passwordStrength"></div>
+
+                <small id="passwordError"></small>
+
+
+                <!-- Confirm Password -->
+                <label for="confirmPassword">Confirm Password</label>
+
+                <input
+                    type="password"
+                    id="confirmPassword"
+                    placeholder="Confirm your password"
+                >
+
+                <small id="confirmPasswordError"></small>
+
+
+                <!-- Course -->
+                <label for="course">Course</label>
+
+                <select id="course">
+
+                    <option value="">Select Course</option>
+                    <option value="IT">Information Technology</option>
+                    <option value="CSE">Computer Science</option>
+                    <option value="CE">Computer Engineering</option>
+
+                </select>
+
+                <small id="courseError"></small>
+
+
+                <!-- Year -->
+                <label for="year">Year</label>
+
+                <select id="year">
+
+                    <option value="">Select Year</option>
+                    <option value="1">1st Year</option>
+                    <option value="2">2nd Year</option>
+                    <option value="3">3rd Year</option>
+                    <option value="4">4th Year</option>
+
+                </select>
+
+                <small id="yearError"></small>
+
+
+                <!-- Gender -->
+                <label>Gender</label>
+
+                <div class="gender">
+
+                    <label>
+                        <input type="radio" name="gender" value="Male">
+                        Male
+                    </label>
+
+                    <label>
+                        <input type="radio" name="gender" value="Female">
+                        Female
+                    </label>
+
+                    <label>
+                        <input type="radio" name="gender" value="Other">
+                        Other
+                    </label>
+
+                </div>
+
+                <small id="genderError"></small>
+
+
+                <!-- Terms -->
+                <div class="terms">
+
+                    <label>
+                        <input type="checkbox" id="terms">
+                        I accept the Terms & Conditions
+                    </label>
+
+                </div>
+
+                <small id="termsError"></small>
+
+
+                <!-- Button -->
+
+                <button type="submit" class="create-button">
+                    Create Account
+                </button>
+
+            </form>
+
+
+            <p class="login-text">
+                Already have an account?
+                <a href="login.html">Login</a>
+            </p>
+
+        </div>
+
+    </main>
+
+
+    <!-- Footer -->
+
+    <footer>
+        © 2026 StudentHub Portal
+    </footer>
+
+</body>
+
+</html>
