@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub - Event Management</title>
+    <link rel="stylesheet" href="events.css">
+    <script src="events.js" defer></script>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-content">
+            <h1>StudentHub</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="events.html" class="active">Events</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="page-heading">
+            <div>
+                <h2>College Events</h2>
+                <p>Discover and manage all college events.</p>
+            </div>
+
+            <button type="button" id="openAddEventBtn"
+                    class="add-event-main-btn">
+                + Add Event
+            </button>
+        </section>
+
+        <p id="apiMessage" role="status"></p>
+
+        <section class="filter-section">
+            <input type="search" id="searchInput"
+                   placeholder="Search events...">
+
+            <select id="categoryFilter">
+                <option value="all">All Categories</option>
+                <option value="Technical">Technical</option>
+                <option value="Cultural">Cultural</option>
+                <option value="Sports">Sports</option>
+                <option value="Workshop">Workshop</option>
+            </select>
+
+            <select id="sortOption">
+                <option value="az">Name: A to Z</option>
+                <option value="za">Name: Z to A</option>
+            </select>
+        </section>
+
+        <p id="loading" hidden>Loading events...</p>
+        <p id="error" hidden></p>
+
+        <section id="eventContainer" class="event-container">
+        </section>
+
+        <div class="pagination">
+            <button type="button" id="prevBtn">Previous</button>
+            <span id="pageNumber">1 / 1</span>
+            <button type="button" id="nextBtn">Next</button>
+        </div>
+
+    </main>
+
+    <dialog id="eventDialog" class="event-dialog">
+        <div class="dialog-header">
+            <h2 id="eventDialogTitle">Add New Event</h2>
+            <button type="button" id="closeEventDialogBtn"
+                    aria-label="Close">✕</button>
+        </div>
+
+        <form id="eventForm">
+            <input type="hidden" id="eventId">
+
+            <label for="eventTitle">Event Title *</label>
+            <input type="text" id="eventTitle"
+                   maxlength="150" required>
+
+            <label for="eventDate">Event Date</label>
+            <input type="date" id="eventDate">
+
+            <label for="eventDescription">Description</label>
+            <textarea id="eventDescription" rows="3"
+                      maxlength="255"></textarea>
+
+            <label for="eventCategory">Category</label>
+            <select id="eventCategory">
+                <option value="Technical">Technical</option>
+                <option value="Cultural">Cultural</option>
+                <option value="Sports">Sports</option>
+                <option value="Workshop">Workshop</option>
+            </select>
+
+            <label for="eventStatus">Status</label>
+            <select id="eventStatus">
+                <option value="Open">Open</option>
+                <option value="Closed">Closed</option>
+            </select>
+
+            <div class="form-buttons">
+                <button type="submit" id="saveEventBtn">
+                    Save Event
+                </button>
+
+                <button type="button" id="cancelEditBtn">
+                    Cancel
+                </button>
+            </div>
+        </form>
+    </dialog>
+
+    <footer class="footer">
+        <p>© 2026 StudentHub | College Event Management</p>
+    </footer>
+
+</body>
+</html>
